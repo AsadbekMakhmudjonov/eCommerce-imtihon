@@ -7,11 +7,11 @@
   margin-bottom: 16px;
 }
 
-.price-filter__range-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+.filter__range-min {}
+
+.filter__range-interval {}
+
+.filter__range-max {}
 
 .price-filter__box {
   display: flex;
@@ -35,8 +35,8 @@
   margin-top: 2px;
   display: inline-block;
   padding: 12px 15px;
-  width: 108px;
   border-radius: 8px;
+  width: 80px;
   border: 1px solid #d1d1d1;
 }
 

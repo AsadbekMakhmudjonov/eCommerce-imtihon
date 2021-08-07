@@ -84,7 +84,6 @@
   margin-bottom: 16px;
   height: 180px;
   width: 100%;
-  min-width: 230px;
   border-radius: 12px;
 }
 
@@ -392,7 +391,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 30;
   background-color: rgba(202, 198, 198, 0.5);
 }
 
