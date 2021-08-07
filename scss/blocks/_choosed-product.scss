@@ -1,5 +1,11 @@
 .choosed-product {
   display: flex;
+  background-color: #fff;
+  padding:0 15px;
+}
+
+.choosed-product:not(:last-child) {
+  padding-bottom: 48px;
 }
 
 .choosed-product__features {
@@ -52,7 +58,7 @@
 
 .choosed-product__features-btn--remove {
   &::after {
-    background-image: url("../../img/remov-ic.svg");
+    background-image: url("../../img/icon-close.svg");
   }
 }
 
@@ -70,6 +76,8 @@
 
 .choosed-product__name {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .choosed-product__name-title {
@@ -113,4 +121,24 @@
 .choosed-product__sale-wrap {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 410px) {
+  .choosed-product__name-title {
+    margin-right: 20px;
+  }
+
+  .choosed-product__sale {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .choosed-product__name-desc {
+    white-space: nowrap;
+  }
+
+  .choosed-product__rebate {
+    text-align: right;
+    margin-bottom: 10px;
+  }
 }
