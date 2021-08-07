@@ -2643,6 +2643,11 @@ body {
     display: block;
     width: 100%;
     margin-top: 20px;
+    white-space: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
   }
 }
 
