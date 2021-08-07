@@ -172,7 +172,17 @@
   color: white;
   border-radius: 12px;
   white-space: nowrap;
+  transition: opacity 0.3s ease;
 }
+
+.outcome__price-button-buy:hover{
+  opacity: 0.8;
+}
+
+.outcome__price-button-buy:active{
+  opacity: 0.6;
+}
+
 
 
 
@@ -309,6 +319,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  transition: opacity 0.3s ease;
+}
+
+.outcome__price-button-details:hover{
+  opacity: 0.8;
+}
+
+.outcome__price-button-details:active{
+  opacity: 0.6;
 }
 
 .outcome__price-button-add {
@@ -324,7 +343,17 @@
   line-height: 22px;
   color: #151515;
   white-space: nowrap;
+  transition: opacity 0.3s ease;
 }
+
+.outcome__price-button-add:hover{
+  opacity: 0.8;
+}
+
+.outcome__price-button-add:active{
+  opacity: 0.6;
+}
+
 .outcome__price-button-add::before{
   content: '';
   width: 18px;
@@ -337,6 +366,29 @@
   display: block;
 }
 
+.outcome__discount {
+  display: none;
+  top: 28px;
+  left: 28px;
+  background-color: #F4F8EC;
+  border-radius: 12px;
+  padding: 0 8px;
+  color: #6A983C;
+  font-weight: 600;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.outcome--grid {
+  position: relative;
+}
+
+
+.outcome--grid .outcome__discount {
+  display: block;
+  position: absolute;
+}
 
 
 @media only screen and (max-width : 1150px) {
