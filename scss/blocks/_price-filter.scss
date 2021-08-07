@@ -4,14 +4,52 @@
 
 .price-filter__range {
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 5;
+  height: 6px;
+  background-color: #fff;
+  background: #EBEBEB;
+  border-radius: 12px;
 }
 
-.filter__range-min {}
+.filter__range-min {
+  top: -6px;
+  left: 50px;
+  position: absolute;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  cursor: pointer;
+}
 
-.filter__range-interval {}
+.filter__range-interval {
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  background-color: #6A983C;
+  height: 6px;
+  left: 55px;
+  border-radius: 12px;
+}
 
-.filter__range-max {}
+.filter__range-max {
+  cursor: pointer;
+  top: -6px;
+  left: 120px;
+  position: absolute;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}
 
 .price-filter__box {
   display: flex;
